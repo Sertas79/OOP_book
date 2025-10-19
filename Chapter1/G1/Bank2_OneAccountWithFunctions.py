@@ -2,25 +2,25 @@
 # Банк. Версия 2
 # Единственный счет
 
-accountName = ''
-accountBalance = 0
-accountPassword = ''
+account0Name = ''
+account0Balance = 0
+account0Password = ''
 
 def new_account(name, balance, password):
-    global accountName, accountBalance, accountPassword
+    global account0Name, account0Balance, account0Password
     accountName = name
     accountBalance = balance
     accountPassword = password
 
 def show_account():
-    global accountName, accountBalance, accountPassword
+    global account0Name, account0Balance, account0Password
     print('     Name', accountName)
     print('     Balance', accountBalance)
     print('     Password', accountPassword)
     print()
 
 def get_balance(password):
-    global accountName, accountBalance, accountPassword
+    global account0Name, account0Balance, account0Password
     if password != accountPassword:
         print('Wrong password')
         return None
@@ -28,7 +28,7 @@ def get_balance(password):
         return accountBalance
 
 def deposit(amount_to_deposit, password):
-    global accountName, accountBalance, accountPassword
+    global account0Name, account0Balance, account0Password
     if amount_to_deposit < 0:
         print('You cannot deposit a negative amount!')
         return None
@@ -41,7 +41,7 @@ def deposit(amount_to_deposit, password):
     return accountBalance
 
 def withdraw(amount_to_withdraw, password):
-    global accountName, accountBalance, accountPassword
+    global account0Name, account0Balance, account0Password
     if amount_to_withdraw < 0:
         print('You cannot withdraw a negative amount!')
         return None

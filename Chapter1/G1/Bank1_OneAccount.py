@@ -2,9 +2,9 @@
 # Банк. Версия 1
 # Единственный счет
 
-accountName = 'Joe'
-accountBalance = 100
-accountPassword = 'soup'
+account0Name = 'Joe'
+account0Balance = 100
+account0Password = 'soup'
 
 while True:
     print()
@@ -23,10 +23,10 @@ while True:
     if action == 'b':
         print('Get Balance')
         userPassword = input('Enter your password: ')
-        if userPassword != accountPassword:
+        if userPassword != account0Password:
             print('Wrong password')
         else:
-            print('Balance: ' + str(accountBalance))
+            print('Balance: ' + str(account0Balance))
     elif action == 'd':
         print('Make a Deposit')
         userDepositAmount = int(input('Enter your deposit amount: '))
@@ -34,16 +34,16 @@ while True:
 
         if userDepositAmount < 0:
             print('You cannot make a deposit')
-        elif userPassword != accountPassword:
+        elif userPassword != account0Password:
             print('Wrong password')
         else:
-            accountBalance += userDepositAmount
-            print('Your balance: ' + str(accountBalance))
+            account0Balance += userDepositAmount
+            print('Your balance: ' + str(account0Balance))
     elif action == 's':
         print('Show account')
-        print('     Name', accountName)
-        print('     Balance', accountBalance)
-        print('     Password', accountPassword)
+        print('     Name', account0Name)
+        print('     Balance', account0Balance)
+        print('     Password', account0Password)
         print()
     elif action == 'q':
         break
@@ -54,12 +54,12 @@ while True:
 
         if userWithdrawAmount < 0:
             print('You cannot make a withdrawal')
-        elif userPassword != accountPassword:
+        elif userPassword != account0Password:
             print('Wrong password')
-        elif userWithdrawAmount > accountBalance:
+        elif userWithdrawAmount > account0Balance:
             print('You cannot make a withdrawal')
         else:
-            accountBalance -= userWithdrawAmount
-            print('Your balance: ' + str(accountBalance))
+            account0Balance -= userWithdrawAmount
+            print('Your balance: ' + str(account0Balance))
 
 
