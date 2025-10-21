@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cae9c06-ada2-4622-ae3b-a85b2c7d8239" name="Changes" comment="Bank5_Dictionary.py">
-      <change afterPath="$PROJECT_DIR$/Chapter1/G1/Account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/G2/LightSwitch_Procedural.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1cae9c06-ada2-4622-ae3b-a85b2c7d8239" name="Changes" comment="LightSwitch_Procedural">
+      <change afterPath="$PROJECT_DIR$/Chapter1/G2/OO_LightSwitch_with_Test_Code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
     "Python.Bank4_N_Account.executor": "Run",
     "Python.Bank5_Dictionary.executor": "Run",
     "Python.HigherOrLowerProcedural.executor": "Run",
+    "Python.OO_LightSwitch_with_Test_Code.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -69,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Account">
+  <component name="RunManager" selected="Python.OO_LightSwitch_with_Test_Code">
     <configuration name="Account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="ENV_FILES" value="" />
@@ -85,29 +84,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G1/Account.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Bank2_OneAccountWithFunctions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/G1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G1/Bank2_OneAccountWithFunctions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,13 +161,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="OO_LightSwitch_with_Test_Code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/G2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G2/OO_LightSwitch_with_Test_Code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.OO_LightSwitch_with_Test_Code" />
         <item itemvalue="Python.Account" />
         <item itemvalue="Python.Bank5_Dictionary" />
         <item itemvalue="Python.Bank4_N_Account" />
         <item itemvalue="Python.Bank3_TwoAccount" />
-        <item itemvalue="Python.Bank2_OneAccountWithFunctions" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760777285768</updated>
-      <workItem from="1760777286478" duration="16160000" />
+      <workItem from="1760777286478" duration="16555000" />
     </task>
     <task id="LOCAL-00001" summary="HigherOrLowerProcedural">
       <option name="closed" value="true" />
@@ -276,7 +275,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760981786842</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Account">
+      <option name="closed" value="true" />
+      <created>1761066373730</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761066373730</updated>
+    </task>
+    <task id="LOCAL-00010" summary="LightSwitch_Procedural">
+      <option name="closed" value="true" />
+      <created>1761066392084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761066392084</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,9 +303,12 @@
     <MESSAGE value="Bank3_TwoAccount" />
     <MESSAGE value="Bank4_N_Account" />
     <MESSAGE value="Bank5_Dictionary.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bank5_Dictionary.py" />
+    <MESSAGE value="Account" />
+    <MESSAGE value="LightSwitch_Procedural" />
+    <option name="LAST_COMMIT_MESSAGE" value="LightSwitch_Procedural" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OOP$OO_LightSwitch_with_Test_Code.coverage" NAME="OO_LightSwitch_with_Test_Code Coverage Results" MODIFIED="1761066683198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G2" />
     <SUITE FILE_PATH="coverage/OOP$Bank1_OneAccount.coverage" NAME="Bank1_OneAccount Coverage Results" MODIFIED="1760805378580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
     <SUITE FILE_PATH="coverage/OOP$Account.coverage" NAME="Account Coverage Results" MODIFIED="1760982101574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
     <SUITE FILE_PATH="coverage/OOP$Bank5_Dictionary.coverage" NAME="Bank5_Dictionary Coverage Results" MODIFIED="1760981613963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
