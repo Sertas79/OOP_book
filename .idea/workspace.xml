@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cae9c06-ada2-4622-ae3b-a85b2c7d8239" name="Changes" comment="Bank2_OneAccountWithFunctions">
+    <list default="true" id="1cae9c06-ada2-4622-ae3b-a85b2c7d8239" name="Changes" comment="Bank5_Dictionary.py">
+      <change afterPath="$PROJECT_DIR$/Chapter1/G1/Account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/G2/LightSwitch_Procedural.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/G1/Bank1_OneAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/G1/Bank1_OneAccount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter1/G1/Bank2_OneAccountWithFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter1/G1/Bank2_OneAccountWithFunctions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +47,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Account.executor": "Run",
     "Python.Bank1_OneAccount.executor": "Run",
     "Python.Bank2_OneAccountWithFunctions.executor": "Run",
     "Python.Bank3_TwoAccount.executor": "Run",
+    "Python.Bank4_N_Account.executor": "Run",
+    "Python.Bank5_Dictionary.executor": "Run",
     "Python.HigherOrLowerProcedural.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -66,8 +69,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Bank3_TwoAccount">
-    <configuration name="Bank1_OneAccount" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Account">
+    <configuration name="Account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +84,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G1/Bank1_OneAccount.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G1/Account.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,11 +139,59 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Bank4_N_Account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/G1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G1/Bank4_N_Account.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Bank5_Dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/G1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G1/Bank5_Dictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Account" />
+        <item itemvalue="Python.Bank5_Dictionary" />
+        <item itemvalue="Python.Bank4_N_Account" />
         <item itemvalue="Python.Bank3_TwoAccount" />
         <item itemvalue="Python.Bank2_OneAccountWithFunctions" />
-        <item itemvalue="Python.Bank1_OneAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +210,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760777285768</updated>
-      <workItem from="1760777286478" duration="11626000" />
+      <workItem from="1760777286478" duration="16160000" />
     </task>
     <task id="LOCAL-00001" summary="HigherOrLowerProcedural">
       <option name="closed" value="true" />
@@ -201,7 +252,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760864066709</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bank3_TwoAccount">
+      <option name="closed" value="true" />
+      <created>1760896884632</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760896884632</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Bank4_N_Account">
+      <option name="closed" value="true" />
+      <created>1760980847125</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760980847125</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Bank5_Dictionary.py">
+      <option name="closed" value="true" />
+      <created>1760981786842</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760981786842</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,12 +285,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HigherOrLowerProcedural" />
     <MESSAGE value="Bank2_OneAccountWithFunctions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bank2_OneAccountWithFunctions" />
+    <MESSAGE value="Bank3_TwoAccount" />
+    <MESSAGE value="Bank4_N_Account" />
+    <MESSAGE value="Bank5_Dictionary.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bank5_Dictionary.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOP$Bank1_OneAccount.coverage" NAME="Bank1_OneAccount Coverage Results" MODIFIED="1760805378580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
-    <SUITE FILE_PATH="coverage/OOP$Bank3_TwoAccount.coverage" NAME="Bank3_TwoAccount Coverage Results" MODIFIED="1760896634442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
+    <SUITE FILE_PATH="coverage/OOP$Account.coverage" NAME="Account Coverage Results" MODIFIED="1760982101574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
+    <SUITE FILE_PATH="coverage/OOP$Bank5_Dictionary.coverage" NAME="Bank5_Dictionary Coverage Results" MODIFIED="1760981613963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
+    <SUITE FILE_PATH="coverage/OOP$Bank3_TwoAccount.coverage" NAME="Bank3_TwoAccount Coverage Results" MODIFIED="1760896789685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
     <SUITE FILE_PATH="coverage/OOP$Bank2_OneAccountWithFunctions.coverage" NAME="Bank2_OneAccountWithFunctions Coverage Results" MODIFIED="1760863831204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
+    <SUITE FILE_PATH="coverage/OOP$Bank4_N_Account.coverage" NAME="Bank4_N_Account Coverage Results" MODIFIED="1760980755653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
     <SUITE FILE_PATH="coverage/OOP$HigherOrLowerProcedural.coverage" NAME="HigherOrLowerProcedural Coverage Results" MODIFIED="1760779148730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
   </component>
 </project>
