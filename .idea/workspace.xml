@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cae9c06-ada2-4622-ae3b-a85b2c7d8239" name="Changes" comment="OO_DimmerSwitch_Model1">
-      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP1_IndividualVariables/Account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP1_IndividualVariables/Main_Bank_Version1.py" afterDir="false" />
+    <list default="true" id="1cae9c06-ada2-4622-ae3b-a85b2c7d8239" name="Changes" comment="BankOOP1">
+      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP2_ListOfAccountObjects/Account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP2_ListOfAccountObjects/Main_Bank_Version2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "Python.DimmerSwitch_Model2_Method_Calls.executor": "Run",
     "Python.HigherOrLowerProcedural.executor": "Run",
     "Python.Main_Bank_Version1.executor": "Run",
+    "Python.Main_Bank_Version2.executor": "Run",
     "Python.OO_DimmerSwitch_Model1.executor": "Run",
     "Python.OO_DimmerSwitch_Model2_Instantiation.executor": "Run",
     "Python.OO_LightSwitch_with_Test_Code.executor": "Run",
@@ -65,7 +66,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "E:/Yandex.Disk/Programming/Learn_python/OOP/Chapter1/G4/BankOOP1_IndividualVariables",
+    "last_opened_file_path": "E:/Yandex.Disk/Programming/Learn_python/OOP/Chapter1/G4/BankOOP2_ListOfAccountObjects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,10 +78,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Yandex.Disk\Programming\Learn_python\OOP\Chapter1\G4\BankOOP2_ListOfAccountObjects" />
       <recent name="E:\Yandex.Disk\Programming\Learn_python\OOP\Chapter1\G4\BankOOP1_IndividualVariables" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main_Bank_Version1">
+  <component name="RunManager" selected="Python.Main_Bank_Version2">
     <configuration name="DimmerSwitch_Model2_Method_Calls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="ENV_FILES" value="" />
@@ -119,6 +121,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G4/BankOOP1_IndividualVariables/Main_Bank_Version1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main_Bank_Version2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/G4/BankOOP2_ListOfAccountObjects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G4/BankOOP2_ListOfAccountObjects/Main_Bank_Version2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,36 +198,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OO_LightSwitch_with_Test_Code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/G2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G2/OO_LightSwitch_with_Test_Code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main_Bank_Version2" />
         <item itemvalue="Python.Main_Bank_Version1" />
         <item itemvalue="Python.DimmerSwitch_Model2_Method_Calls" />
         <item itemvalue="Python.OO_DimmerSwitch_Model2_Instantiation" />
         <item itemvalue="Python.OO_DimmerSwitch_Model1" />
-        <item itemvalue="Python.OO_LightSwitch_with_Test_Code" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +223,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760777285768</updated>
-      <workItem from="1760777286478" duration="22069000" />
+      <workItem from="1760777286478" duration="23653000" />
     </task>
     <task id="LOCAL-00001" summary="HigherOrLowerProcedural">
       <option name="closed" value="true" />
@@ -335,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761239376204</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="BankOOP1">
+      <option name="closed" value="true" />
+      <created>1761253958775</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761253958775</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +362,8 @@
     <MESSAGE value="OO_LightSwitch_with_Test_Code" />
     <MESSAGE value="TV" />
     <MESSAGE value="OO_DimmerSwitch_Model1" />
-    <option name="LAST_COMMIT_MESSAGE" value="OO_DimmerSwitch_Model1" />
+    <MESSAGE value="BankOOP1" />
+    <option name="LAST_COMMIT_MESSAGE" value="BankOOP1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOP$OO_LightSwitch_with_Test_Code.coverage" NAME="OO_LightSwitch_with_Test_Code Coverage Results" MODIFIED="1761153322905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G2" />
@@ -366,6 +377,7 @@
     <SUITE FILE_PATH="coverage/OOP$Bank5_Dictionary.coverage" NAME="Bank5_Dictionary Coverage Results" MODIFIED="1760981613963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
     <SUITE FILE_PATH="coverage/OOP$OO_DimmerSwitch_Model1.coverage" NAME="OO_DimmerSwitch_Model1 Coverage Results" MODIFIED="1761153402049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G3" />
     <SUITE FILE_PATH="coverage/OOP$Bank2_OneAccountWithFunctions.coverage" NAME="Bank2_OneAccountWithFunctions Coverage Results" MODIFIED="1760863831204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
+    <SUITE FILE_PATH="coverage/OOP$Main_Bank_Version2.coverage" NAME="Main_Bank_Version2 Coverage Results" MODIFIED="1761325640989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G4/BankOOP2_ListOfAccountObjects" />
     <SUITE FILE_PATH="coverage/OOP$HigherOrLowerProcedural.coverage" NAME="HigherOrLowerProcedural Coverage Results" MODIFIED="1760779148730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
   </component>
 </project>
