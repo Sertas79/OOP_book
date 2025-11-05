@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cae9c06-ada2-4622-ae3b-a85b2c7d8239" name="Changes" comment="BankOOP1">
-      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP2_ListOfAccountObjects/Account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP2_ListOfAccountObjects/Main_Bank_Version2.py" afterDir="false" />
+    <list default="true" id="1cae9c06-ada2-4622-ae3b-a85b2c7d8239" name="Changes" comment="Bank2">
+      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP3_DictionaryOfAccountObjects/Account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP3_DictionaryOfAccountObjects/Main_Bank_Version3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP4_InteractiveMenu/Account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter1/G4/BankOOP4_InteractiveMenu/Main_Bank_Version4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Sertas79"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sertas79&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Sertas79/OOP_book.git",
-    "accountId": "2e6bea7e-5e83-4f18-983a-ff4a62562a9b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sertas79/OOP_book.git&quot;,
+    &quot;accountId&quot;: &quot;2e6bea7e-5e83-4f18-983a-ff4a62562a9b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="34ESYJbBzfr4WGYS5GiPER07EEy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,16 +59,18 @@
     "Python.HigherOrLowerProcedural.executor": "Run",
     "Python.Main_Bank_Version1.executor": "Run",
     "Python.Main_Bank_Version2.executor": "Run",
+    "Python.Main_Bank_Version4.executor": "Run",
     "Python.OO_DimmerSwitch_Model1.executor": "Run",
     "Python.OO_DimmerSwitch_Model2_Instantiation.executor": "Run",
     "Python.OO_LightSwitch_with_Test_Code.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "E:/Yandex.Disk/Programming/Learn_python/OOP/Chapter1/G4/BankOOP2_ListOfAccountObjects",
+    "last_opened_file_path": "E:/Yandex.Disk/Programming/Learn_python/OOP/Chapter1/G4/BankOOP4_InteractiveMenu",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,11 +82,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Yandex.Disk\Programming\Learn_python\OOP\Chapter1\G4\BankOOP4_InteractiveMenu" />
+      <recent name="E:\Yandex.Disk\Programming\Learn_python\OOP\Chapter1\G4\BankOOP3_DictionaryOfAccountObjects" />
       <recent name="E:\Yandex.Disk\Programming\Learn_python\OOP\Chapter1\G4\BankOOP2_ListOfAccountObjects" />
       <recent name="E:\Yandex.Disk\Programming\Learn_python\OOP\Chapter1\G4\BankOOP1_IndividualVariables" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Yandex.Disk\Programming\Learn_python\OOP\Chapter1\G4" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Main_Bank_Version2">
+  <component name="RunManager" selected="Python.Main_Bank_Version4">
     <configuration name="DimmerSwitch_Model2_Method_Calls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="ENV_FILES" value="" />
@@ -152,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OO_DimmerSwitch_Model1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Main_Bank_Version4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,12 +170,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/G3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter1/G4/BankOOP4_InteractiveMenu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G3/OO_DimmerSwitch_Model1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter1/G4/BankOOP4_InteractiveMenu/Main_Bank_Version4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main_Bank_Version4" />
         <item itemvalue="Python.Main_Bank_Version2" />
         <item itemvalue="Python.Main_Bank_Version1" />
         <item itemvalue="Python.DimmerSwitch_Model2_Method_Calls" />
         <item itemvalue="Python.OO_DimmerSwitch_Model2_Instantiation" />
-        <item itemvalue="Python.OO_DimmerSwitch_Model1" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +232,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760777285768</updated>
-      <workItem from="1760777286478" duration="23653000" />
+      <workItem from="1760777286478" duration="26191000" />
+      <workItem from="1762358202354" duration="113000" />
+      <workItem from="1762358327209" duration="1928000" />
     </task>
     <task id="LOCAL-00001" summary="HigherOrLowerProcedural">
       <option name="closed" value="true" />
@@ -345,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761253958775</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Bank2">
+      <option name="closed" value="true" />
+      <created>1761325913171</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761325913171</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,10 +382,12 @@
     <MESSAGE value="TV" />
     <MESSAGE value="OO_DimmerSwitch_Model1" />
     <MESSAGE value="BankOOP1" />
-    <option name="LAST_COMMIT_MESSAGE" value="BankOOP1" />
+    <MESSAGE value="Bank2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bank2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOP$OO_LightSwitch_with_Test_Code.coverage" NAME="OO_LightSwitch_with_Test_Code Coverage Results" MODIFIED="1761153322905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G2" />
+    <SUITE FILE_PATH="coverage/OOP$Main_Bank_Version4.coverage" NAME="Main_Bank_Version4 Coverage Results" MODIFIED="1762359274740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G4/BankOOP4_InteractiveMenu" />
     <SUITE FILE_PATH="coverage/OOP$Main_Bank_Version1.coverage" NAME="Main_Bank_Version1 Coverage Results" MODIFIED="1761240068233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G4/BankOOP1_IndividualVariables" />
     <SUITE FILE_PATH="coverage/OOP$Bank1_OneAccount.coverage" NAME="Bank1_OneAccount Coverage Results" MODIFIED="1760805378580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
     <SUITE FILE_PATH="coverage/OOP$Bank3_TwoAccount.coverage" NAME="Bank3_TwoAccount Coverage Results" MODIFIED="1760896789685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1/G1" />
